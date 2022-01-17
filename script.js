@@ -1,4 +1,4 @@
-const vardi=['Santa Bērziņa','Pēteris Vanags','Zane Kalna','Anna Sars','Vilnis Sakta',];
+const vardi=['Santa Bedre','Edvards Vanags','Zane Kalna','Anna Sars','Vilnis Sakta',];
 const balvas=['Ledusskapis','Virtuves kombains','Blenderis','Mašīna','Augļu grozs'];
 const naudaKopa=1000000;//kopējā summa izlozei
 let uzvaretajuSkaits=5;

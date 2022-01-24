@@ -2,6 +2,8 @@ const vardi=['Santa Bedre','Edvards Vanags','Zane Kalna','Anna Sars','Vilnis Sak
 const balvas=['Ledusskapis','Virtuves kombains','Blenderis','Mašīna','Augļu grozs'];
 const naudaKopa=1000000;//kopējā summa izlozei
 let uzvaretajuSkaits=5;
-let rand= Math.random()*10;
+for  (let i=0;i<5;i++){
+let rand= Math.random()*vardi.length;
 rand= Math.floor(rand);//noapaļo uz leju
 console.log(vardi[rand]);//izvada konsolē nejauši izvēlētus vārdus
+}

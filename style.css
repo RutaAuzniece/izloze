@@ -1,0 +1,8 @@
+table, th, td {
+    border: 1px solid black;
+    width:40%;
+    background-color: aquamarine;
+  }
+  td{
+      width: 20%;
+  }

@@ -7,10 +7,14 @@ rindas.innerHTML=' ';
 for  (let i=0;i<uzvaretajuSkaits;i++){
 let rand= Math.random()*vardi.length;
 rand= Math.floor(rand);//noapaļo uz leju
-console.log(vardi[rand]);//izvada konsolē nejauši izvēlētus vārdus
-}
-rindas.innerHTML=
+
+let uzvaretajs = vardi[rand];//izvada konsolē
+
+
+rindas.innerHTML +=`
 <tr>
-    <td>i</td>
-    <td>uzvarētājs</td>
-</tr>
+    <td>${i+1}</td>
+    <td>${uzvaretajs}</td>
+</tr>`
+}
+

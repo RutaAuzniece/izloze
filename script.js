@@ -11,10 +11,17 @@ rand= Math.floor(rand);//noapaļo uz leju
 let uzvaretajs = vardi[rand];//izvada konsolē
 
 
+
+
+let vinnetajs = balvas[rand];//izvada konsolē
+
+
 rindas.innerHTML +=`
 <tr>
     <td>${i+1}</td>
     <td>${uzvaretajs}</td>
+    <td>${vinnetajs}</td>
 </tr>`
 }
+
 
